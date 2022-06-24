@@ -8,7 +8,7 @@ export function Portfolio() {
                 <a href="#intro" className="float-right text-lg text-gray-100 w-fit m-[0] cursor-pointer hover:text-[#33A1E4]"><span className="text-[#33A1E4]">1.</span> About</a>
                 <a href="#work" className="float-right text-lg text-gray-100 w-fit m-[0] cursor-pointer hover:text-[#33A1E4]"><span className="text-[#33A1E4]">2.</span> Work</a>
                 <a href="#contact" className="float-right text-lg text-gray-100 w-fit m-[0] cursor-pointer hover:text-[#33A1E4]"><span className="text-[#33A1E4]">3.</span> Contact</a>
-                <a target="_blank" href="/images/Cristian_Silva_Resume.pdf">
+                <a target="_blank" rel="noreferrer" href="/images/Cristian_Silva_Resume.pdf">
                     <button className="text-lg text-[#33A1E4] px-[8px] py-[6px] rounded-md border-2 border-[#33A1E4] hover:bg-[#33A1E4] hover:text-white">Resume</button>
                 </a>
             </div>
@@ -45,12 +45,12 @@ export function Portfolio() {
                         </ul>
                         <div className="flex gap-4">
                             <div className="w-[23px]">
-                                <a target="_blank" href="https://github.com/Artstore-nft/gallery-builder">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/Artstore-nft/gallery-builder">
                                     <IconGitHub />
                                 </a>
                             </div>
                             <div className="w-[23px]">
-                                <a target="_blank" href="https://artstore.lol">
+                                <a target="_blank" rel="noreferrer" href="https://artstore.lol">
                                     <IconExternal />
                                 </a>
                             </div>
@@ -90,7 +90,7 @@ export function Portfolio() {
                         </ul>
                         <div className="flex gap-4">
                             <div className="w-[23px]">
-                                <a target="_blank" href="https://github.com/wealthwallet/wealthwallet">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/wealthwallet/wealthwallet">
                                     <IconGitHub />
                                 </a>
                             </div>
@@ -100,7 +100,7 @@ export function Portfolio() {
             </div>
             <div id="contact" className="w-full py-[40px] flex flex-col items-center">
                 <h1 className="mb-[50px] text-white text-center text-5xl font-semibold">Contact</h1>
-                <a target="_blank" href="mailto:silvacristian1296@gmail.com" className="w-fit text-[#33A1E4] text-center text-4xl font-semibold">silvacristian1296@gmail.com</a>
+                <a target="_blank" rel="noreferrer" href="mailto:silvacristian1296@gmail.com" className="w-fit text-[#33A1E4] text-center text-4xl font-semibold">silvacristian1296@gmail.com</a>
             </div>
         </div>
     )
