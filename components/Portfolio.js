@@ -18,7 +18,7 @@ export function Portfolio() {
                     <h1 className="text-white text-6xl font-bold mb-[25px]">Cristian Silva.</h1>
                     <h1 className="text-gray-300 text-4xl font-medium leading-[3rem]">A software engineer who enjoys building <span className="text-[#33A1E4]">web</span> and <span className="text-[#33A1E4]">blockchain</span> apps.</h1>
                     <div className="mt-[60px] w-full flex place-content-center">
-                        <a target="_blank" href="mailto:silvacristian1296@gmail.com">
+                        <a target="_blank" rel="noreferrer" href="mailto:silvacristian1296@gmail.com">
                         <button className="text-3xl text-[#33A1E4] px-[20px] py-[15px] rounded-md border-2 border-[#33A1E4] hover:bg-[#33A1E4] hover:text-white">Contact Me</button>    
                         </a>
                     </div>
