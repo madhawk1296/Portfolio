@@ -1,5 +1,6 @@
 import IconGitHub from "./icons/github"
 import IconExternal from "./icons/external"
+import TwitterIcon from "./icons/twitter"
 
 export function Portfolio() {
     return (
@@ -28,14 +29,41 @@ export function Portfolio() {
                 </div>
             </div>
             <div id="work" className="w-full pt-[85px]">
-                <h1 className="mb-[50px] text-white text-center text-5xl font-semibold">Latest Works</h1>
+                <h1 className="mb-[50px] text-[#33A1E4] text-center text-5xl font-semibold">Latest Works</h1>
+                <div className="w-full flex pb-[80px]">
+                    <div className="w-[45%] pt-[20px] px-[30px]">
+                        <h1 className="mb-[25px] text-[#33A1E4] text-center text-4xl font-normal tracking-wider">Bridgeworld Helper</h1>
+                        <h1 className="mb-[30px] text-lg text-gray-300">A Dapp that allows users to analyze blockchain data and estimate the profitability of on-chain actions. The dapp regularly updates prices in real-time, ensuring that users have access to the most up-to-date information. Bridgeworld Helper has been praised by the community for its accuracy and usefulness.</h1>
+                        <ul className="mb-[30px] text-md text-gray-200 font-semibold whitespace-nowrap">
+                            <li className="inline mr-[20px]">React</li>
+                            <li className="inline mr-[20px]">NextJS</li>
+                            <li className="inline mr-[20px]">GraphQL</li>
+                            <li className="inline mr-[20px]">Tailwind CSS</li>
+                        </ul>
+                        <div className="flex gap-4">
+                            <div className="w-[23px]">
+                                <a target="_blank" rel="noreferrer" href="https://twitter.com/bridgeworldhelp">
+                                    <TwitterIcon />
+                                </a>
+                            </div>
+                            <div className="w-[23px]">
+                                <a target="_blank" rel="noreferrer" href="https://app.bridgeworldhelper.com">
+                                    <IconExternal />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[55%]">
+                        <img src="/images/bridgeworldHelper_screenshot.png" />
+                    </div>
+                </div>
                 <div className="w-full flex pb-[80px]">
                     <div className="w-[55%]">
                         <img src="/images/artstore_screenshot.jpg" />
                     </div>
                     <div className="w-[45%] pt-[20px] px-[30px]">
                         <h1 className="mb-[25px] text-[#33A1E4] text-center text-4xl font-normal tracking-wider">Artstore</h1>
-                        <h1 className="mb-[30px] text-lg text-gray-300">An online website builder for showing off your NFTs. Connect your wallet, load your NFTs, add name, bio, image and links. After customizations are complete, you can save the website to your GitHub account.</h1>
+                        <h1 className="mb-[30px] text-lg text-gray-300">An online website builder that allows you to showcase your non-fungible tokens (NFTs) in a stylish and professional manner. Simply connect your wallet, load your NFTs, and customize your website with your name, bio, image, and links. Once you are satisfied with your design, you can save the website to your GitHub account for easy sharing.</h1>
                         <ul className="mb-[30px] text-md text-gray-200 font-semibold whitespace-nowrap">
                             <li className="inline mr-[20px]">TypeScript</li>
                             <li className="inline mr-[20px]">NextJS</li>
